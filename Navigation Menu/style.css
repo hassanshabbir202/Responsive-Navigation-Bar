@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar {
+  background-color: #fff;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-div img {
+  height: 70px;
+  margin: 0.2rem 0rem;
+}
+
+.hamburger-menu-div i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* animation div styling */
+
+.animation-div {
+  height: 600px;
+  width: 100%;
+  background-color: #151515;
+  position: absolute;
+  top: -90%;
+  transition: all 1.2s ease-in-out;
+}
+.leftandright {
+  width: 50%;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.leftandrightsidecontainer {
+  display: flex;
+  justify-content: center;
+}
+.leftsidemenus-div {
+  display: flex;
+  flex-direction: column;
+}
+.leftsidemenus-div a {
+  font-size: 45px;
+  color: #e8e8e8;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.leftsidemenus-div a:hover {
+  font-size: 45px;
+  color: #cfc6c6;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+}
+.case-studies{
+    color: #685e50;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.eleswhere{
+  color: #685e50;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.social-media-links{
+    color: #e8e8e8;
+    margin-top: .5rem;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
+.cross-icondiv{
+    display: flex;
+    justify-content: right;
+    margin-right: 4.5rem;
+    margin-top: 1.5rem;
+}
+#crossIcon{
+    color: #e8e8e8;
+    cursor: pointer;
+    font-size: 35px;
+}
